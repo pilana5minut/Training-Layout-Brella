@@ -1,0 +1,9 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+@import "global.css";
+@import "overall.css";
+
+/* components imports */
+
+@import "css/components/1-component.css";
