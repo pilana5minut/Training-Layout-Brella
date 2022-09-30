@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   height: 90px;
+  /* margin-bottom: 160px; */
 }
 
 .header__logo {
-  margin-right: 262px;
+  margin-right: 263px;
   padding: 45px;
 }
 
@@ -20,13 +21,14 @@
   justify-content: space-between;
   width: 585px;
   font-weight: 700;
+  font-size: 14px;
   line-height: normal;
-  margin-right: 69px;
+  margin-right: 68px;
 }
 
 .header__button-request {
   padding: 10px 14px;
-  margin-right: 29px;
+  margin-right: 28px;
   border-radius: 6px;
   font-weight: 700;
   font-size: 14px;
@@ -40,7 +42,11 @@
   font-size: 13px;
   line-height: 20px;
   color: var(--darck-green-color);
-  margin-right: 45px;
+  margin-right: 43px;
+}
+
+.header__button-login-arrow {
+  padding-left: 3px;
 }
 
 .header__button-language {

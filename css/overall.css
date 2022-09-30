@@ -1,10 +1,13 @@
 .site-container {
   overflow: hidden;
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 1500px;
-  padding: 0 30px;
+  max-width: 1200px;
+  padding: 0 0;
   margin: 0 auto;
 }
 
