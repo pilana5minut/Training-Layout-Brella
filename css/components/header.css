@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.header__logo {
+  margin-right: 262px;
+  padding: 45px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 585px;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 69px;
+}
+
+.header__button-request {
+  padding: 10px 14px;
+  margin-right: 29px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: var(--medium-green-color);
+  color: var(--white-color);
+}
+
+.header__button-login-form {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--darck-green-color);
+  margin-right: 45px;
+}
+
+.header__button-language {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--darck-green-color);
+}
