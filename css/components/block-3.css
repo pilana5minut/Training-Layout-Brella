@@ -1,0 +1,45 @@
+.block-3__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.block-3__left-section {
+  padding: 120px 0 120px 120px;
+  background-color: #e3eeed;
+}
+
+.block-3__subtitle {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #214e41;
+  margin-bottom: 30px;
+}
+
+.block-3__services-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #43806c;
+}
+
+.block-3__services-item:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.block-3__right-section {
+  background-color: #214e41;
+  padding: 160px 120px 120px 100px;
+}
+
+.block-3__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #ffffff;
+}
