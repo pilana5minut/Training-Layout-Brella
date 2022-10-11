@@ -1,0 +1,53 @@
+.block-6 {
+  background-image: url("../../img/block-6__image.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 522px;
+  margin-bottom: 120px;
+}
+
+.block-6__wrapper {
+  padding-top: 128px;
+  padding-right: 714px;
+}
+.block-6__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: var(--medium-green-color);
+  margin-bottom: 19px;
+}
+.block-6__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: var(--darck-green-color);
+  margin-bottom: 33px;
+}
+.block-6__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: var(--gray-color);
+  margin-bottom: 25px;
+}
+.block-6__link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: var(--darck-green-color);
+}

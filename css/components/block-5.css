@@ -1,0 +1,60 @@
+.block-5__grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.block-5__grid-2-col-first {
+  background-repeat: no-repeat;
+  width: 296px;
+  height: 500px;
+  align-self: end;
+  margin-left: 116px;
+}
+
+.block-5__grid-2-col-second {
+  padding: 70px 34px 34px 34px;
+}
+
+.block-5__grid-2-col-second-subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  margin-bottom: 19px;
+}
+
+.block-5__grid-2-col-second-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214e41;
+  margin-bottom: 35px;
+}
+
+.block-5__grid-2-col-second-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+  margin-bottom: 23px;
+}
+
+.block-5__grid-2-col-second-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: #214e41;
+}

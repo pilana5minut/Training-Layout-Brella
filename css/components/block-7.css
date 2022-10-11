@@ -1,0 +1,29 @@
+.block-7__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #214e41;
+  margin-bottom: 115px;
+}
+
+.block-7__grid {
+  display: grid;
+  grid-template-columns: auto repeat(5, 1fr) auto;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 125px;
+}
+
+.block-7__grid-item_left-arrow {
+  transform: rotate(180deg);
+}
+
+.block-7__border-line {
+  width: calc(100% - 89px);
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(199, 199, 199, 0.37);
+}
