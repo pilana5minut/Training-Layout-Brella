@@ -1,0 +1,31 @@
+.block-8__grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 70px;
+  margin-bottom: 120px;
+}
+
+.block-8__card-image {
+  margin-bottom: 18px;
+}
+
+.block-8__card-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: var(--medium-green-color);
+  margin-bottom: 15px;
+}
+
+.block-8__card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--darck-green-color);
+}

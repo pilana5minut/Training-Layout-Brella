@@ -1,0 +1,49 @@
+.block-9 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.block-9__grid-section-first {
+  background-image: url("../../img/block-9__image.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 720px;
+  height: 577px;
+}
+
+.block-9__grid-section-second {
+  background-color: var(--light-green-color);
+  padding: 143px 113px 30px 120px;
+}
+
+.block-9__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: var(--darck-green-color);
+  margin-bottom: 46px;
+}
+
+.block-9__phrase {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: var(--darck-green-color);
+  margin-bottom: 60px;
+}
+
+.block-9__button {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02px;
+  border-radius: 6px;
+  padding: 13px 24px;
+  background-color: var(--medium-green-color);
+  color: var(--white-color);
+}

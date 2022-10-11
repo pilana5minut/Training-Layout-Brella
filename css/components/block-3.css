@@ -7,7 +7,7 @@
 
 .block-3__left-section {
   padding: 120px 0 128px 120px;
-  background-color: #e3eeed;
+  background-color: var(--light-green-color);
 }
 
 .block-3__subtitle {
