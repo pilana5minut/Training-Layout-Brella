@@ -1,0 +1,133 @@
+.footer {
+  height: 788px;
+  background-color: var(--darck-green-color);
+  padding-top: 100px;
+}
+
+.footer__grid-container {
+  display: grid;
+  grid-template-columns: 204px 200px 442px 1fr;
+  margin-bottom: 65px;
+}
+
+.footer__list-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.footer__list-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--white-color);
+}
+
+.footer__contacts {
+  padding-top: 2px;
+}
+
+.footer__contacts-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 18px;
+}
+
+.footer__contacts-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  color: var(--white-color);
+  margin-bottom: 15px;
+}
+
+.footer__email-input {
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  outline: transparent;
+  width: 300px;
+  height: 52px;
+  margin-bottom: 30px;
+}
+
+.footer__button-input {
+  background-image: url("../../img/block-7__slider-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  background-color: var(--white-color);
+  width: 55px;
+  height: 52px;
+}
+
+.footer__social {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 27px;
+  height: 27px;
+}
+
+.footer__social:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer__social_link-li {
+  background-image: url("../../img/footer__social-li.svg");
+}
+
+.footer__social_link-tw {
+  background-image: url("../../img/footer__social-tw.svg");
+}
+
+.footer__social_link-yt {
+  background-image: url("../../img/footer__social-yt.svg");
+}
+
+.footer__border-line {
+  width: calc(100% - 240px);
+  height: 1px;
+  background-color: var(--white-color);
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.footer__info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02px;
+  color: var(--white-color);
+}
+
+.footer__info-disclaimer {
+  margin-bottom: 20px;
+}
+
+.footer__info-insurance {
+  margin-bottom: 20px;
+}
+
+.footer__info-address {
+  margin-bottom: 93px;
+}
+
+.footer-wraper {
+  display: grid;
+  grid-template-columns: 1fr 50px 18px 110px;
+  align-items: center;
+}
+
+.footer__info-separator {
+  justify-self: center;
+  width: 1px;
+  height: 24px;
+  background-color: var(--white-color);
+}
